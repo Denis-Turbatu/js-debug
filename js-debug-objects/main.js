@@ -84,3 +84,12 @@ console.log(dieselCars);
 
 console.log('Tutte le altre auto');
 console.log(otherCars);
+// 1- In base ad un array di oggetti, si stampano le macchine che sono a Benzina, Gasolio e altro in 3 array diversi co .filter()
+// 2- Si:
+    // riga 59 manca una virgola
+    // riga 67 l'arrow function è scritta male, >= invece che =>
+    // riga 67 viene fatto il controllo su 'benzina' ma negli oggetti alcune auto prensentano il tipo con la prima lettera maiuscola
+    // riga 70 viene fatto il controllo su 'diesel' ma negli oggetti alcune auto prensentano il tipo con la prima lettera maiuscola
+    // riga 74 viene fatto il controllo su 'benzina' o 'diesel' ma negli oggetti alcune auto prensentano il tipo con la prima lettera maiuscola
+// 3- Si:
+    // riga 74 viene fatto il controllo 'benzina' o 'diesel' ma dovrebbero essere esclusi entrambi
