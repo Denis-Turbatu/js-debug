@@ -1,6 +1,7 @@
 const input = document.querySelector('input');
 const array = [];
 
+
 input.addEventListener('keypress', function(event) {
 
     if (event.code != 'Enter') return;
